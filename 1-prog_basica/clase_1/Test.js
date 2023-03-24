@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var rls = require("readline-sync");
+var vuelta1 = rls.questionFloat("Ingresar tiempo de vuelta 1: ");
+var vuelta2 = rls.questionFloat("Ingresar tiempo de vuelta 2: ");
+var vuelta3 = rls.questionFloat("Ingresar tiempo de vuelta1 3: ");
+var vuelta4 = rls.questionFloat("Ingresar tiempo de vuelta1 4: ");
+var tiempoTotal = vuelta1 + vuelta2 + vuelta3 + vuelta4;
+console.log("Tiempo Total: ", tiempoTotal);
+console.log("Tiempo Promedio: ", tiempoTotal / 4);
